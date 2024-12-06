@@ -1,7 +1,5 @@
 ![](./assets/images/hero_img_redme.png)
 
-# Simple Omelette Recipe
-
 A simple and easy-to-follow omelette recipe web page. This project features a clean, responsive design built with HTML and CSS. It includes clear instructions, ingredient lists, and nutritional information. Perfect for anyone looking for a quick meal.
 
 ## Table of contents
@@ -19,16 +17,9 @@ The page is structured to highlight key components of the recipe, including:
 
 - **Introduction**: A brief description of the dish and its appeal.
 - **Preparation Time**: Clear breakdown of how long each step (preparation, cooking, and total) takes.
-  ![](./assets/images/introduction_img_readme.png)
-
 - **Ingredients**: A simple list of ingredients required for the recipe, with an option for various fillings.
-  ![](./assets/images/ingredients_img_redme.png)
-
 - **Instructions**: Step-by-step guide for preparing the omelette, including tips for customizing it with optional fillings.
-  ![](./assets/images/instructions_img_readme.png)
-
 - **Nutritional Information**: Basic nutrition facts (calories, protein, fat, carbs) for the recipe without additional fillings.
-  ![](./assets/images/nutritional_img_redme.png)
 
 The design focuses on **usability** and **accessibility**, ensuring that the content is easy to read on both **mobile** and **desktop** devices. It uses a **clean layout** to make the recipe easy to follow while also providing a visually appealing experience.
 
