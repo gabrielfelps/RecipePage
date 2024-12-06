@@ -1,0 +1,38 @@
+main {
+  padding-inline: 25px;
+}
+
+@media (min-width: 768px) {
+  main {
+    padding-inline: 0px;
+  }
+}
+
+.main-introduction {
+  margin-block: 20px;
+}
+
+.main-introduction-preptime {
+  background: var(--rose-50);
+  padding: 20px;
+  margin-block: 20px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .main-introduction-preptime {
+    margin-block: 30px;
+  }
+}
+
+.main-introduction-preptime li {
+  display: flex;
+  margin-top: 10px;
+}
+
+.main-introduction-preptime li::before {
+  content: "•";
+  color: var(--rose-800);
+  margin-right: 20px;
+}

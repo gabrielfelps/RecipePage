@@ -1,0 +1,8 @@
+/* Global */
+@import "./global/global.css";
+
+/* Main */
+@import "./main/introduction.css";
+@import "./main/ingredients.css";
+@import "./main/instructions.css";
+@import "./main/nutrition.css";

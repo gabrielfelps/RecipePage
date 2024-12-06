@@ -1,0 +1,27 @@
+.main-instructions {
+  margin-block: 20px;
+  text-align: left;
+  border-bottom: 1px solid var(--stone-150);
+  padding-bottom: 25px;
+}
+
+.main-instruction-list li {
+  display: flex;
+  font-weight: 600;
+  color: var(--brown-800);
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.main-instruction-list li::before {
+  counter-increment: number;
+  content: "" counter(number) ".";
+  margin-right: 10px;
+}
+
+.main-instruction-list li span {
+  color: var(--stone-600);
+  font-weight: normal;
+  margin-left: 5px;
+  list-style-type: decimal;
+}

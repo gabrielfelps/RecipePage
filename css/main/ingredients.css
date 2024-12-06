@@ -1,0 +1,18 @@
+.main-ingredients {
+  margin-block: 20px;
+  text-align: left;
+  border-bottom: 1px solid var(--stone-150);
+  padding-bottom: 25px;
+}
+
+.main-ingredients li {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.main-ingredients li::before {
+  content: "•";
+  color: var(--brown-800);
+  margin-right: 20px;
+}

@@ -1,0 +1,39 @@
+.main-nutrition p {
+  margin-top: 20px;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  margin-block: 20px;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  table {
+    margin-bottom: 0px;
+  }
+}
+
+tr {
+  display: flex;
+  justify-content: space-evenly;
+  padding-block: 10px;
+}
+
+tr:not(:nth-child(4)) {
+  border-bottom: 1px solid var(--stone-150);
+}
+
+th {
+  margin-left: 40px;
+  margin-right: 60px;
+  width: 60px;
+  font-weight: normal;
+}
+
+td {
+  width: 60px;
+  font-weight: 600;
+  color: var(--brown-800);
+}
